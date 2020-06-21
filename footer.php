@@ -1,3 +1,6 @@
-  <h3>footer</h3>
-
+  <div class="container">
+    <div class="row">
+      <h3>footer</h3>
+    </div>
+  </div>
 </html>

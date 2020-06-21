@@ -8,4 +8,8 @@
   <head>
     <?php wp_head(); ?>
   </head>
-    <h1>Greetings from Eric Rees</h1>
+  <div class="container">
+    <div class="row">
+      <h1>Greetings from Eric Rees</h1>
+    </div>
+  </div>  
