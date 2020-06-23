@@ -1,7 +1,7 @@
 <?php get_header() ?>
 
 <div class="container"> 
-  <div class="row">
+  <div class="d-flex justify-content-center">
     <div class="main-content">
       <ul>
         <li><a href="#">development</a></li>

@@ -4,12 +4,16 @@
 <!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
-<html>
+<html <?php language_attributes(); ?>>
   <head>
+    <meta charset="<?php bloginfo('charset'); ?>">
     <?php wp_head(); ?>
   </head>
+<body <?php body_class(); ?>>
   <div class="container">
-    <div class="row">
-      <h1>Greetings from Eric Rees</h1>
+    <div class="d-flex justify-content-center">
+      <div class="name-headline">
+        <h1>Eric Rees</h1>
+      </div>
     </div>
   </div>  

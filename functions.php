@@ -17,5 +17,6 @@ add_action('wp_enqueue_scripts', 'october_enqueue_scripts');
 /** Setting Up Theme Features **/
 function october_features() {
   add_theme_support('title-tag');
+  register_nav_menu( 'side_menu_location', 'Side Menu Location' );
 }
 add_action('after_setup_theme', 'october_features');

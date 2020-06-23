@@ -8,3 +8,21 @@ body {
   color: #ffffff;
   background-color: #ff944f !important;
 }
+
+.name-headline {
+  color: #ffffff;
+  text-transform: uppercase;
+  display: flex;
+  font-size: xx-large;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+}
+
+.main-content a:link {
+  color: #ffffff;
+}
+
+.main-content li {
+  list-style-type: none;
+}
