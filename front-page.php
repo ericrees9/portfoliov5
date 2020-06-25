@@ -9,6 +9,7 @@
         <li><a href="<?php echo site_url('/about-me') ?>">about me</a></li>
         <li><a href="<?php echo site_url('/contact') ?>">contact</a></li>
         <li><a href="<?php echo site_url('/experimental') ?>">experimental</a></li>
+        <li>test test test</li>
       </ul>
     </div>
   </div>
