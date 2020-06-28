@@ -1,0 +1,52 @@
+/*
+  Theme Name: October
+  Author: Eric Rees
+  Version: 0.1 
+*/
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  color: #ffffff;
+  background-color: #ff944f !important;
+}
+
+.name-headline {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  height: 33vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.name-headline h1 {
+  font-size: 4.75rem;
+  line-height: 4.15rem;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content a:link {
+  color: #ffffff;
+}
+
+.main-content a:visited {
+  color: #ffffff;
+}
+
+.main-content a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.main-content li {
+  list-style-type: none;
+}
